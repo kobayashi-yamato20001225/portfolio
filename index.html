@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"> <!-- 文字コードをUTF-8に設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- モバイル対応の表示設定 -->
+  <title>私のポートフォリオ</title> <!-- ブラウザのタブに表示されるタイトル -->
+
+  <!-- ページ全体のスタイル設定 -->
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif; /* フォントの指定 */
+      background-color: #f4f4f4; /* 背景色 */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333; /* ヘッダーの背景色 */
+      color: white; /* ヘッダーの文字色 */
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px; /* コンテンツの最大幅 */
+      margin: 2rem auto; /* 上下の余白と中央寄せ */
+      padding: 1rem;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 影をつけて立体感を出す */
+    }
+    h2 {
+      color: #333;
+    }
+    .project {
+      margin-bottom: 2rem; /* プロジェクト間の余白 */
+    }
+    .project a {
+      color: #0078D7; /* リンクの色 */
+      text-decoration: none; /* 下線を消す */
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- ヘッダー部分 -->
+  <header>
+    <h1>私のポートフォリオ</h1>
+    <p>制作したコード作品を紹介します</p>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <div class="container">
+    <!-- プロジェクト①の紹介 -->
+    <section class="project">
+      <h2>作品タイトル①</h2>
+      <p>この作品はマウスホイールを押すだけで電卓が開くというコードです。主な技術：Python</p>
+      <p><a href="https://example.com/project1" target="_blank">▶ デモを見る</a></p>
+      <p><a href="https://github.com/kobayashi-yamato20001225/dentaku" target="_blank">▶ GitHubコードを見る</a></p>
+    </section>
+
+    <!-- プロジェクト②の紹介 -->
+    <section class="project">
+      <h2>作品タイトル②</h2>
+      <p>この作品は△△を解決するためのツールです。主な技術：React, Node.js</p>
+      <p><a href="https://example.com/project2" target="_blank">▶ デモを見る</a></p>
+      <p><a href="https://github.com/yourusername/project2" target="_blank">▶ GitHubコードを見る</a></p>
+    </section>
+  </div>
+
+  <!-- フッター部分 -->
+  <footer>
+    &copy; 2025 小林大和. All rights reserved.
+  </footer>
+</body>
+</html>
