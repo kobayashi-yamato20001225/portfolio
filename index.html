@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8"> <!-- 文字コードをUTF-8に設定 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- モバイル対応の表示設定 -->
-  <title>私のポートフォリオ</title> <!-- ブラウザのタブに表示されるタイトル -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>私のポートフォリオ</title>
 
-  <!-- ページ全体のスタイル設定 -->
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif; /* フォントの指定 */
-      background-color: #f4f4f4; /* 背景色 */
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #333; /* ヘッダーの背景色 */
-      color: white; /* ヘッダーの文字色 */
+      background-color: #333;
+      color: white;
       padding: 1rem;
       text-align: center;
     }
     .container {
-      max-width: 900px; /* コンテンツの最大幅 */
-      margin: 2rem auto; /* 上下の余白と中央寄せ */
+      max-width: 900px;
+      margin: 2rem auto;
       padding: 1rem;
       background-color: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 影をつけて立体感を出す */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     h2 {
       color: #333;
     }
+    .section-divider {
+      border-top: 2px solid #ccc;
+      margin: 3rem 0;
+    }
     .project {
-      margin-bottom: 2rem; /* プロジェクト間の余白 */
+      margin-bottom: 2rem;
     }
     .project a {
-      color: #0078D7; /* リンクの色 */
-      text-decoration: none; /* 下線を消す */
+      color: #0078D7;
+      text-decoration: none;
     }
     footer {
       text-align: center;
@@ -45,14 +48,23 @@
   </style>
 </head>
 <body>
-  <!-- ヘッダー部分 -->
   <header>
     <h1>私のポートフォリオ</h1>
     <p>制作したコード作品を紹介します</p>
   </header>
 
-  <!-- メインコンテンツ -->
   <div class="container">
+    <!-- 自己紹介セクション -->
+    <section class="project">
+      <h2>自己紹介</h2>
+      <p>初めまして、小林大和と申します。</p>
+      <p>この記事では職業訓練で学んだ知識をポートフォリオとして残すために作成しました。</p>
+      <p>趣味はゲーム、散歩、自分や誰かの生活を少しでも豊かにできるような物作るのが目標です。</p>
+    </section>
+
+    <!-- 区切り線 -->
+    <div class="section-divider"></div>
+
     <!-- 作品1の紹介 -->
     <section class="project">
       <h2>電卓</h2>
@@ -69,7 +81,6 @@
     </section>
   </div>
 
-  <!-- フッター部分 -->
   <footer>
     2025 小林大和
   </footer>
